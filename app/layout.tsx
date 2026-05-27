@@ -41,6 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="geo.placename" content="France" />
         <meta name="geo.position" content="48.8566;2.3522" />
         <meta name="google-site-verification" content="y2JWTnB0uLLGdR-Q2RjUI11Oo5qF-OLYbOG1zsdZqiM" />
+        <meta name="google-site-verification" content="WJrJqAPR0XTbNefsppH0xXAPIaCGdeovyCaF686Jlpo" />
         <meta name="theme-color" content="#050508" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preload" as="image" href="/og-home.svg" />
