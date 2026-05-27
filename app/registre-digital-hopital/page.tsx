@@ -8,7 +8,7 @@ const faq = [
       "C'est une version numérique, structurée et consultable du registre papier, avec des données exploitables pour la supervision et l'audit.",
   },
   {
-    question: "OPERIA est-il plus qu'un simple registre ?",
+    question: "NORYX est-il plus qu'un simple registre ?",
     answer:
       "Oui. La solution ajoute la supervision, les rôles et le reporting, ce qui en fait un outil de pilotage plus large qu'un registre seul.",
   },
@@ -20,18 +20,18 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Registre digital hôpital | OPERIA",
+  title: "Registre digital hôpital | NORYX",
   description:
-    "Registre digital hôpital pour centraliser les opérations critiques, fiabiliser la traçabilité et accélérer la supervision avec OPERIA.",
+    "Registre digital hôpital pour centraliser les opérations critiques, fiabiliser la traçabilité et accélérer la supervision avec NORYX.",
   canonicalPath: "/registre-digital-hopital",
-  keywords: ["registre digital hôpital", "registre opérationnel hôpital", "OPERIA"],
+  keywords: ["registre digital hôpital", "registre opérationnel hôpital", "NORYX"],
 });
 
 export default function Page() {
   return (
     <SeoLandingPage
       title="Un registre digital hospitalier fait pour la lecture opérationnelle"
-      description="OPERIA transforme le registre digital en outil de supervision réel, utile au terrain comme à la direction."
+      description="NORYX transforme le registre digital en outil de supervision réel, utile au terrain comme à la direction."
       canonicalPath="/registre-digital-hopital"
       keywordLabel="Registre digital hôpital"
       intro="Le registre n'est pas une fin en soi: il doit aider à suivre les événements, garder la mémoire des opérations et soutenir la prise de décision."
@@ -53,7 +53,7 @@ export default function Page() {
           eyebrow: "Supervision",
           title: "Une lecture en temps réel qui va au-delà du stockage",
           description:
-            "OPERIA donne du sens aux données en les reliant à la supervision et au suivi des priorités.",
+            "NORYX donne du sens aux données en les reliant à la supervision et au suivi des priorités.",
           bullets: ["Vue instantanée", "Statuts visibles", "Traçabilité active"],
         },
         {
@@ -67,7 +67,7 @@ export default function Page() {
       faq={faq}
       relatedLinks={[
         { label: "Main courante électronique hôpital", href: "/main-courante-electronique-hopital", description: "Voir la variante la plus proche côté recherche." },
-        { label: "Traçabilité incidents hôpital", href: "/tracabilite-incidents-hopital", description: "Comprendre le suivi des incidents dans OPERIA." },
+        { label: "Traçabilité incidents hôpital", href: "/tracabilite-incidents-hopital", description: "Comprendre le suivi des incidents dans NORYX." },
         { label: "Demander une démo", href: "/demo", description: "Réserver un échange avec l'équipe." },
       ]}
       ctaPrimaryLabel="Demander une démo"

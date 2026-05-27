@@ -3,7 +3,7 @@ import { breadcrumbJsonLd, buildMetadata, faqJsonLd } from "../../lib/seo";
 
 const faq = [
   {
-    question: "Quel est le meilleur moyen de contacter OPERIA ?",
+    question: "Quel est le meilleur moyen de contacter NORYX ?",
     answer:
       "Le plus simple est d'écrire à l'équipe ou de passer par la page démo pour accélérer le traitement de votre demande.",
   },
@@ -20,17 +20,17 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Contact | OPERIA",
+  title: "Contact | NORYX",
   description:
-    "Contactez l'équipe OPERIA pour échanger sur vos besoins de supervision hospitalière, de traçabilité et de démonstration produit.",
+    "Contactez l'équipe NORYX pour échanger sur vos besoins de supervision hospitalière, de traçabilité et de démonstration produit.",
   canonicalPath: "/contact",
-  keywords: ["contact OPERIA", "démo hospitalière", "supervision hospitalière"],
+  keywords: ["contact NORYX", "démo hospitalière", "supervision hospitalière"],
 });
 
 export default function ContactPage() {
   return (
     <SeoLandingPage
-      title="Contactez OPERIA pour un échange qualifié"
+      title="Contactez NORYX pour un échange qualifié"
       description="La page de contact sert à transformer une intention en opportunité concrète, avec un message clair et adapté à l'hôpital."
       canonicalPath="/contact"
       keywordLabel="Contact"

@@ -8,7 +8,7 @@ const faq = [
       "Elle couvre la lecture en temps réel des incidents, des rondes, des alertes et des opérations critiques pour aider les responsables à prioriser.",
   },
   {
-    question: "OPERIA aide-t-il à coordonner le terrain ?",
+    question: "NORYX aide-t-il à coordonner le terrain ?",
     answer:
       "Oui. La plateforme donne une vision partagée entre agents, chefs d'équipe et hospitaliers pour mieux coordonner les actions.",
   },
@@ -20,18 +20,18 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Supervision sécurité hospitalière | OPERIA",
+  title: "Supervision sécurité hospitalière | NORYX",
   description:
     "Plateforme de supervision sécurité hospitalière pour visualiser les incidents, coordonner les équipes et consolider le pilotage en temps réel.",
   canonicalPath: "/supervision-securite-hospitaliere",
-  keywords: ["supervision sécurité hospitalière", "plateforme supervision hospitalière", "OPERIA"],
+  keywords: ["supervision sécurité hospitalière", "plateforme supervision hospitalière", "NORYX"],
 });
 
 export default function Page() {
   return (
     <SeoLandingPage
       title="Supervision sécurité hospitalière en temps réel"
-      description="OPERIA offre aux équipes hospitalières une lecture claire de l'activité de sécurité, des incidents et des priorités opérationnelles."
+      description="NORYX offre aux équipes hospitalières une lecture claire de l'activité de sécurité, des incidents et des priorités opérationnelles."
       canonicalPath="/supervision-securite-hospitaliere"
       keywordLabel="Supervision sécurité hospitalière"
       intro="Cette page répond aux requêtes d'experts et de décideurs qui veulent une supervision plus rapide, plus lisible et plus crédible qu'une solution basique."

@@ -13,14 +13,14 @@ const faq = [
       "Il peut convenir dans des contextes très simples, mais il devient vite limité dès qu'il faut consolider, rechercher ou auditer à grande échelle.",
   },
   {
-    question: "OPERIA remplace-t-il le papier sans complexifier ?",
+    question: "NORYX remplace-t-il le papier sans complexifier ?",
     answer:
       "Oui. La plateforme remplace les saisies dispersées par un flux unique plus lisible pour les équipes et les directions.",
   },
 ];
 
 export const metadata = buildMetadata({
-  title: "Comparatif main courante papier vs digitale | OPERIA",
+  title: "Comparatif main courante papier vs digitale | NORYX",
   description:
     "Comparatif détaillé entre main courante papier et digitale pour les hôpitaux: traçabilité, audit, supervision et pilotage opérationnel.",
   canonicalPath: "/guides/comparatif-main-courante-papier-digitale",

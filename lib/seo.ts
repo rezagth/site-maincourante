@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
-export const siteName = "OPERIA";
-export const siteUrl = "https://operia.example";
+export const siteName = "NORYX";
+export const siteUrl = "https://noryx.example";
 export const siteDescription =
-  "OPERIA est la plateforme de traçabilité et de supervision en temps réel des opérations hospitalières critiques.";
+  "NORYX est la plateforme de traçabilité et de supervision en temps réel des opérations hospitalières critiques.";
 
 type BuildMetadataArgs = {
   title: string;

@@ -13,22 +13,22 @@ const faq = [
       "Parce qu'elle réduit les pertes d'information, accélère la transmission, améliore la supervision et simplifie la revue des faits.",
   },
   {
-    question: "OPERIA remplace-t-il uniquement le registre ?",
+    question: "NORYX remplace-t-il uniquement le registre ?",
     answer:
-      "Non. OPERIA centralise aussi la supervision en temps réel, le reporting et la lecture opérationnelle pour les établissements hospitaliers.",
+      "Non. NORYX centralise aussi la supervision en temps réel, le reporting et la lecture opérationnelle pour les établissements hospitaliers.",
   },
 ];
 
 export const metadata = buildMetadata({
-  title: "Main courante électronique hôpital | OPERIA",
+  title: "Main courante électronique hôpital | NORYX",
   description:
-    "Découvrez OPERIA, la main courante électronique pour hôpital qui centralise la traçabilité, les incidents et la supervision opérationnelle en temps réel.",
+    "Découvrez NORYX, la main courante électronique pour hôpital qui centralise la traçabilité, les incidents et la supervision opérationnelle en temps réel.",
   canonicalPath: "/main-courante-electronique-hopital",
   keywords: [
     "main courante électronique hôpital",
     "registre digital hôpital",
     "traçabilité hospitalière",
-    "OPERIA",
+    "NORYX",
   ],
 });
 
@@ -36,7 +36,7 @@ export default function Page() {
   return (
     <SeoLandingPage
       title="La main courante électronique pensée pour l'hôpital"
-      description="OPERIA remplace la main courante papier par un registre digital structuré pour la supervision, la traçabilité et le reporting hospitalier."
+      description="NORYX remplace la main courante papier par un registre digital structuré pour la supervision, la traçabilité et le reporting hospitalier."
       canonicalPath="/main-courante-electronique-hopital"
       keywordLabel="Main courante électronique hôpital"
       intro="Le site présente une réponse claire pour les directions hospitalières: une main courante digitale qui conserve le contexte métier, facilite les contrôles et permet un pilotage temps réel des opérations critiques."
@@ -65,13 +65,13 @@ export default function Page() {
           eyebrow: "Conversion",
           title: "Un discours plus crédible pour la démonstration",
           description:
-            "Le terme est familier, mais la proposition va plus loin: OPERIA devient le centre de contrôle digital des opérations hospitalières.",
+            "Le terme est familier, mais la proposition va plus loin: NORYX devient le centre de contrôle digital des opérations hospitalières.",
           bullets: ["Positionnement enterprise", "Preuve immédiate", "Vision hospitalière"],
         },
       ]}
       faq={faq}
       relatedLinks={[
-        { label: "Logiciel incidents hospitaliers", href: "/logiciel-incidents-hospitaliers", description: "Voir comment OPERIA structure le suivi des événements hospitaliers." },
+        { label: "Logiciel incidents hospitaliers", href: "/logiciel-incidents-hospitaliers", description: "Voir comment NORYX structure le suivi des événements hospitaliers." },
         { label: "Plateforme opérations hospitalières", href: "/plateforme-operations-hospitalieres", description: "Comprendre le rôle de centre de contrôle digital." },
         { label: "Demander une démo", href: "/demo", description: "Planifier une démonstration avec vos équipes." },
       ]}

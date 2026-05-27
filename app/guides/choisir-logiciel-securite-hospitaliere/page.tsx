@@ -13,14 +13,14 @@ const faq = [
       "Le bon logiciel doit rester simple pour le terrain tout en couvrant le pilotage, l'audit et la supervision de la direction.",
   },
   {
-    question: "OPERIA correspond-il à un usage enterprise ?",
+    question: "NORYX correspond-il à un usage enterprise ?",
     answer:
       "Oui. Le positionnement est conçu pour les établissements hospitaliers qui recherchent crédibilité, contrôle et déploiement structuré.",
   },
 ];
 
 export const metadata = buildMetadata({
-  title: "Choisir un logiciel de sécurité hospitalière | OPERIA",
+  title: "Choisir un logiciel de sécurité hospitalière | NORYX",
   description:
     "Guide pour choisir un logiciel de sécurité hospitalière: critères, pièges à éviter et bonnes pratiques pour une démo crédible.",
   canonicalPath: "/guides/choisir-logiciel-securite-hospitaliere",

@@ -4,9 +4,9 @@ import { buildMetadata, siteName } from "../../lib/seo";
 export const metadata = {
   ...buildMetadata({
     title: `Recherche | ${siteName}`,
-    description: "Recherche interne OPERIA pour retrouver rapidement les pages hospitalières clés.",
+    description: "Recherche interne NORYX pour retrouver rapidement les pages hospitalières clés.",
     canonicalPath: "/recherche",
-    keywords: ["recherche OPERIA", "site search", "hospitalier"],
+    keywords: ["recherche NORYX", "site search", "hospitalier"],
   }),
   robots: {
     index: false,
@@ -31,12 +31,12 @@ const pages = [
 
 export default function SearchPage() {
   return (
-    <div className="operia-shell seo-page">
+    <div className="noryx-shell seo-page">
       <main>
         <section className="section-block">
           <div className="section-head">
             <span className="section-kicker">Recherche interne</span>
-            <h1>Recherche OPERIA</h1>
+            <h1>Recherche NORYX</h1>
             <p>Accès direct aux pages les plus utiles du site.</p>
           </div>
           <div className="related-grid">

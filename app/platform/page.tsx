@@ -13,24 +13,24 @@ const faq = [
       "Oui. Elle crée un point d'entrée interne cohérent pour les visiteurs et renforce l'architecture du site.",
   },
   {
-    question: "Peut-on y retrouver le positionnement OPERIA ?",
+    question: "Peut-on y retrouver le positionnement NORYX ?",
     answer:
-      "Oui. Elle rappelle qu'OPERIA est un centre de contrôle digital des opérations hospitalières, pas un simple registre.",
+      "Oui. Elle rappelle qu'NORYX est un centre de contrôle digital des opérations hospitalières, pas un simple registre.",
   },
 ];
 
 export const metadata = buildMetadata({
-  title: "Plateforme | OPERIA",
+  title: "Plateforme | NORYX",
   description:
-    "Aperçu de la plateforme OPERIA: supervision en temps réel, traçabilité, portails utilisateurs et dashboards hospitaliers.",
+    "Aperçu de la plateforme NORYX: supervision en temps réel, traçabilité, portails utilisateurs et dashboards hospitaliers.",
   canonicalPath: "/platform",
-  keywords: ["plateforme OPERIA", "dashboard hospitalier", "supervision temps réel"],
+  keywords: ["plateforme NORYX", "dashboard hospitalier", "supervision temps réel"],
 });
 
 export default function PlatformPage() {
   return (
     <SeoLandingPage
-      title="Aperçu de la plateforme OPERIA"
+      title="Aperçu de la plateforme NORYX"
       description="La page plateforme résume l'expérience produit: quatre portails, un dashboard clair et une logique de supervision adaptée aux hôpitaux."
       canonicalPath="/platform"
       keywordLabel="Plateforme"
@@ -44,7 +44,7 @@ export default function PlatformPage() {
       sections={[
         {
           eyebrow: "Produit",
-          title: "Un aperçu de la structure OPERIA",
+          title: "Un aperçu de la structure NORYX",
           description:
             "Les visiteurs comprennent rapidement comment la plateforme organise les rôles, les événements et les rapports.",
           bullets: ["Structure claire", "Lecture rapide", "Orientation terrain"],

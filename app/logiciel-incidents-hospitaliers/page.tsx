@@ -8,7 +8,7 @@ const faq = [
       "Il sert à consigner, suivre et consolider les incidents pour mieux coordonner les équipes et alimenter l'audit.",
   },
   {
-    question: "OPERIA est-il adapté aux incidents critiques ?",
+    question: "NORYX est-il adapté aux incidents critiques ?",
     answer:
       "Oui. Le produit est positionné pour les opérations hospitalières critiques et la supervision temps réel.",
   },
@@ -20,18 +20,18 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Logiciel incidents hospitaliers | OPERIA",
+  title: "Logiciel incidents hospitaliers | NORYX",
   description:
     "Logiciel incidents hospitaliers pour suivre les événements, coordonner les équipes et fiabiliser la traçabilité en temps réel.",
   canonicalPath: "/logiciel-incidents-hospitaliers",
-  keywords: ["logiciel incidents hospitaliers", "suivi incidents hôpital", "OPERIA"],
+  keywords: ["logiciel incidents hospitaliers", "suivi incidents hôpital", "NORYX"],
 });
 
 export default function Page() {
   return (
     <SeoLandingPage
       title="Le logiciel pour suivre les incidents hospitaliers sans perdre le contexte"
-      description="OPERIA structure les incidents hospitaliers dans une interface claire, rapide et exploitable par les équipes terrain comme par la direction."
+      description="NORYX structure les incidents hospitaliers dans une interface claire, rapide et exploitable par les équipes terrain comme par la direction."
       canonicalPath="/logiciel-incidents-hospitaliers"
       keywordLabel="Logiciel incidents hospitaliers"
       intro="Cette page cible les requêtes liées au traitement des incidents hospitaliers, avec un discours métier simple et directement orienté démonstration."
@@ -53,7 +53,7 @@ export default function Page() {
           eyebrow: "Suivi",
           title: "Gardez la main sur les actions de traitement",
           description:
-            "OPERIA permet de voir l'état d'un incident et de suivre le passage d'un responsable à l'autre.",
+            "NORYX permet de voir l'état d'un incident et de suivre le passage d'un responsable à l'autre.",
           bullets: ["Statut visible", "Responsables identifiés", "Actions tracées"],
         },
         {

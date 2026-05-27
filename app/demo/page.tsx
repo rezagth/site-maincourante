@@ -5,7 +5,7 @@ const faq = [
   {
     question: "Que se passe-t-il après la demande de démo ?",
     answer:
-      "L'équipe OPERIA reprend le besoin, qualifie le contexte hospitalier et prépare une démonstration centrée sur vos usages.",
+      "L'équipe NORYX reprend le besoin, qualifie le contexte hospitalier et prépare une démonstration centrée sur vos usages.",
   },
   {
     question: "La démo couvre-t-elle les quatre portails ?",
@@ -20,17 +20,17 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Demander une démo | OPERIA",
+  title: "Demander une démo | NORYX",
   description:
-    "Planifiez une démonstration d'OPERIA pour découvrir la traçabilité, la supervision et la crédibilité enterprise du produit.",
+    "Planifiez une démonstration d'NORYX pour découvrir la traçabilité, la supervision et la crédibilité enterprise du produit.",
   canonicalPath: "/demo",
-  keywords: ["demander une démo", "OPERIA", "plateforme hospitalière"],
+  keywords: ["demander une démo", "NORYX", "plateforme hospitalière"],
 });
 
 export default function DemoPage() {
   return (
     <SeoLandingPage
-      title="Planifiez une démonstration OPERIA"
+      title="Planifiez une démonstration NORYX"
       description="Une démo centrée sur vos opérations hospitalières permet de qualifier le besoin, montrer la valeur et accélérer la décision."
       canonicalPath="/demo"
       keywordLabel="Demander une démo"
@@ -67,7 +67,7 @@ export default function DemoPage() {
       faq={faq}
       relatedLinks={[
         { label: "Voir la plateforme", href: "/platform", description: "Parcourir l'aperçu produit." },
-        { label: "Contact", href: "/contact", description: "Écrire à l'équipe OPERIA." },
+        { label: "Contact", href: "/contact", description: "Écrire à l'équipe NORYX." },
         { label: "Accueil", href: "/", description: "Revenir sur la page principale." },
       ]}
       ctaPrimaryLabel="Demander une démo"

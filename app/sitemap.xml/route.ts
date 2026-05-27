@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://operia.example';
+  const baseUrl = 'https://noryx.example';
   const pages = [
     '/',
     '/contact',

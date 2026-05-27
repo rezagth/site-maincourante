@@ -3,9 +3,9 @@ import { breadcrumbJsonLd, buildMetadata, faqJsonLd } from "../../lib/seo";
 
 const faq = [
   {
-    question: "OPERIA est-il un logiciel de sécurité hospitalière ?",
+    question: "NORYX est-il un logiciel de sécurité hospitalière ?",
     answer:
-      "OPERIA couvre la supervision et la traçabilité des opérations hospitalières critiques, avec une orientation claire sécurité et conformité.",
+      "NORYX couvre la supervision et la traçabilité des opérations hospitalières critiques, avec une orientation claire sécurité et conformité.",
   },
   {
     question: "Qu'apporte-t-il aux équipes de sécurité ?",
@@ -20,18 +20,18 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Logiciel sécurité hospitalière | OPERIA",
+  title: "Logiciel sécurité hospitalière | NORYX",
   description:
     "Logiciel de sécurité hospitalière pour centraliser les incidents, les rondes, la supervision et la traçabilité en temps réel.",
   canonicalPath: "/logiciel-securite-hospitaliere",
-  keywords: ["logiciel sécurité hospitalière", "supervision sécurité hospitalière", "OPERIA"],
+  keywords: ["logiciel sécurité hospitalière", "supervision sécurité hospitalière", "NORYX"],
 });
 
 export default function Page() {
   return (
     <SeoLandingPage
       title="Le logiciel de sécurité hospitalière qui centralise l'opérationnel"
-      description="OPERIA aide les établissements à suivre les incidents, les rondes et les alertes dans une plateforme claire, sobre et crédible."
+      description="NORYX aide les établissements à suivre les incidents, les rondes et les alertes dans une plateforme claire, sobre et crédible."
       canonicalPath="/logiciel-securite-hospitaliere"
       keywordLabel="Logiciel sécurité hospitalière"
       intro="La page est conçue pour répondre aux recherches d'équipes de sécurité hospitalière qui veulent une solution sérieuse, compatible avec des exigences d'audit et de supervision avancée."
@@ -53,7 +53,7 @@ export default function Page() {
           eyebrow: "Rassurance",
           title: "Un langage produit adapté aux hôpitaux",
           description:
-            "OPERIA ne se présente pas comme un outil gadget: le positionnement met en avant la conformité, la stabilité et l'audit.",
+            "NORYX ne se présente pas comme un outil gadget: le positionnement met en avant la conformité, la stabilité et l'audit.",
           bullets: ["Crédibilité enterprise", "Formulation sobre", "Focus hospitalier"],
         },
         {

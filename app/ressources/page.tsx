@@ -5,7 +5,7 @@ const faq = [
   {
     question: "Pourquoi créer une page ressources ?",
     answer:
-      "Pour regrouper les contenus long-form, renforcer le maillage interne et aider les moteurs IA à comprendre le périmètre métier d'OPERIA.",
+      "Pour regrouper les contenus long-form, renforcer le maillage interne et aider les moteurs IA à comprendre le périmètre métier d'NORYX.",
   },
   {
     question: "Les ressources servent-elles le SEO ?",
@@ -20,17 +20,17 @@ const faq = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Ressources OPERIA | Guides hospitaliers et supervision",
+  title: "Ressources NORYX | Guides hospitaliers et supervision",
   description:
-    "Ressources OPERIA: guides, comparatifs et contenus SEO pour la traçabilité hospitalière, la supervision et la main courante digitale.",
+    "Ressources NORYX: guides, comparatifs et contenus SEO pour la traçabilité hospitalière, la supervision et la main courante digitale.",
   canonicalPath: "/ressources",
-  keywords: ["ressources OPERIA", "guides hospitaliers", "SEO hospitalier", "traçabilité hospitalière"],
+  keywords: ["ressources NORYX", "guides hospitaliers", "SEO hospitalier", "traçabilité hospitalière"],
 });
 
 export default function ResourcesPage() {
   return (
     <SeoLandingPage
-      title="Ressources OPERIA pour les hôpitaux et les décideurs"
+      title="Ressources NORYX pour les hôpitaux et les décideurs"
       description="Une page hub qui rassemble les contenus essentiels sur la supervision hospitalière, la main courante électronique et le pilotage opérationnel."
       canonicalPath="/ressources"
       keywordLabel="Ressources"
@@ -53,7 +53,7 @@ export default function ResourcesPage() {
           eyebrow: "Comparatifs",
           title: "Aider les équipes à comprendre les choix possibles",
           description:
-            "Les comparatifs permettent de positionner OPERIA face au papier, aux outils génériques et aux besoins hospitaliers.",
+            "Les comparatifs permettent de positionner NORYX face au papier, aux outils génériques et aux besoins hospitaliers.",
           bullets: ["Papier vs digital", "Choix logiciel", "Pilotage multi-sites"],
         },
         {
@@ -76,7 +76,7 @@ export default function ResourcesPage() {
       ctaSecondaryHref="/platform"
       structuredData={[
         breadcrumbJsonLd([{ label: "Accueil", href: "/" }, { label: "Ressources", href: "/ressources" }]),
-        collectionPageJsonLd({ name: "Ressources OPERIA", description: siteDescription, path: "/ressources" }),
+        collectionPageJsonLd({ name: "Ressources NORYX", description: siteDescription, path: "/ressources" }),
       ]}
     />
   );

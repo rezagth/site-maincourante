@@ -13,14 +13,14 @@ const faq = [
       "Parce que les requêtes associées sont très proches de l'intention d'achat et permettent d'expliquer clairement la valeur produit.",
   },
   {
-    question: "OPERIA peut-il jouer ce rôle ?",
+    question: "NORYX peut-il jouer ce rôle ?",
     answer:
-      "Oui. Le positionnement OPERIA est exactement celui d'une plateforme de supervision et de traçabilité en temps réel.",
+      "Oui. Le positionnement NORYX est exactement celui d'une plateforme de supervision et de traçabilité en temps réel.",
   },
 ];
 
 export const metadata = buildMetadata({
-  title: "Plateforme de supervision hospitalière | OPERIA",
+  title: "Plateforme de supervision hospitalière | NORYX",
   description:
     "Guide sur la plateforme de supervision hospitalière: architecture, KPI, traçabilité, déploiement et critères de décision.",
   canonicalPath: "/guides/plateforme-supervision-hospitaliere",

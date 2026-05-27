@@ -55,7 +55,7 @@ export function SeoLandingPage({
   structuredData = [],
 }: SeoLandingPageProps) {
   return (
-    <div className="operia-shell seo-page">
+    <div className="noryx-shell seo-page">
       <header className="topbar seo-topbar">
         <Link href="/" className="brand" aria-label={`${siteName} accueil`}>
           <span className="brand-mark">C</span>
@@ -89,7 +89,7 @@ export function SeoLandingPage({
           </div>
           <aside className="seo-proof-card" aria-label="Repères produit">
             <div className="seo-proof-header">
-              <span>OPERIA</span>
+              <span>NORYX</span>
               <small>{canonicalPath}</small>
             </div>
             <div className="seo-proof-grid">
@@ -109,7 +109,7 @@ export function SeoLandingPage({
         <section className="section-block alt">
           <div className="section-head compact">
             <span className="section-kicker">Définition claire</span>
-            <h2>Comprendre le rôle opérationnel d'OPERIA</h2>
+            <h2>Comprendre le rôle opérationnel d'NORYX</h2>
             <p>
               Le site est rédigé pour les équipes hospitalières, les responsables sécurité et les décideurs qui recherchent une réponse nette et exploitable par les moteurs IA.
             </p>
@@ -163,7 +163,7 @@ export function SeoLandingPage({
         <section className="section-block cta-block">
           <div className="cta-card">
             <span className="section-kicker">Conversion</span>
-            <h2>Planifiez une démonstration et voyez OPERIA appliqué à votre organisation</h2>
+            <h2>Planifiez une démonstration et voyez NORYX appliqué à votre organisation</h2>
             <p>
               Une démo permet de cadrer les rôles, la traçabilité, les rapports et les besoins de supervision avant toute phase de déploiement.
             </p>
