@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://operia.example/sitemap.xml
+
+# Crawl-delay: 10  # Uncomment if you want to rate-limit bots
